@@ -1,6 +1,6 @@
 # 03 JavaScript: Password Generator
 
-(https://einsteindg.github.io/Password-Generator/)
+https://einsteindg.github.io/Password-Generator/
 
 ## Your Task
 
