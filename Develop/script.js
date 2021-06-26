@@ -40,7 +40,9 @@ function choosePassType() {
   console.log(passType);
   if (passType === true) {
     console.log("lowercase required"); alert("Passwrod is getting stronger!");
+    
     const masterArray = lowercaseArray;
+    
     console.log(masterArray);
   }
   else {
@@ -51,7 +53,7 @@ function choosePassType() {
   let passType2 = confirm("Do you want to include (A-Z) Upper case letters?");
   console.log(passType2);
   if (passType2 === true) {
-    console.log("upper case required"); alert("Your password will be unbreakable!"); console.log(uppercaseArray);
+    console.log("upper case required"); alert("Your password will be unbreakable!"); console.log(uppercaseArray); const masterArray = lowercaseArray.concat(uppercaseArray); console.log(masterArray);
   }
 
   else {
